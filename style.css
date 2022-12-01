@@ -27,6 +27,7 @@ li{
   height: 7px;
   transition-duration: 0.25s;
   transition-timing-function: cubic-bezier(0.13, 0.25, 0.35, 1.65);
+
 }
 .navigation{
   text-align: center;
@@ -35,6 +36,7 @@ li{
   font-weight: bold;
 
 }
+
 .lorem{
   margin:5rem auto 0;
   text-align: center;
@@ -50,6 +52,16 @@ li{
 
   margin: auto;
   text-align: center;
+}
+@media (max-width:1250px){
+  .menu{
+    margin-left: 45rem;
+  }
+}
+@media (max-width:800px){
+  .menu{
+    margin-left: 30rem;
+  }
 }
 /* .nav-list::before,
 .nav-list::after{
@@ -96,3 +108,4 @@ ul{
 a.active{
   opacity: 1;
 }
+
